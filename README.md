@@ -68,3 +68,22 @@ The project is at the MVP development stage. Basic VR bow interaction and arrow 
 - Improve the shooting range environment.
 - Test bow and arrow interactions.
 - Improve target placement and scene layout.
+## Project Architecture
+
+### Main Components
+- XR Origin: Manages the VR player's position and controller interactions.
+- Bow: Interactive object used for archery.
+- Arrow: Uses Rigidbody physics for projectile movement.
+- Target: Object used for shooting practice.
+- TargetScore: Script intended to handle target scoring.
+- XR Device Simulator: Allows desktop testing without a VR headset.
+
+### Project Structure
+- Assets/ — Unity scenes, scripts, materials, and game objects.
+- Packages/ — Required Unity packages.
+- ProjectSettings/ — Unity project configuration.
+
+### Physics and VR Testing
+- Review arrow Rigidbody and collider settings.
+- Check arrow collisions with the target.
+- Prepare for Meta Quest deployment and testing.
