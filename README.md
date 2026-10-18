@@ -50,3 +50,21 @@ The project is at the MVP development stage. Basic VR bow interaction and arrow 
 - Improve arrow spawning and interaction
 - Test and optimize gameplay on Meta Quest
 - Add gameplay feedback and polish before Week 15
+
+## Testing and Known Issues
+
+### Desktop Testing
+- Opened the Unity project through Unity Hub.
+- Checked the main scene (SampleScene).
+- Reviewed the bow, arrow, and target setup.
+- Checked the XR Device Simulator configuration.
+
+### Known Issues
+- Target scoring is still under development.
+- Some bow and arrow interactions need further testing.
+- Meta Quest headset testing has not yet been confirmed.
+
+### Next Steps
+- Improve the shooting range environment.
+- Test bow and arrow interactions.
+- Improve target placement and scene layout.
