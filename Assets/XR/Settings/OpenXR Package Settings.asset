@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9b8cd1fcf8499eb57f194da9698fcd, type: 3}
   m_Name: AROcclusionFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.AROcclusionFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Occlusion'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-occlusion
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323d71788dcf5ca4b9cb3c4a90e38335, type: 3}
   m_Name: OpenXRLifeCycleFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.OpenXRLifeCycleFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 
   version: 0.1.0
   featureIdInternal: MetaOpenXR-OpenXRLifeCycle
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a13300a9e14cacbb01ed5d6ae84e69, type: 3}
   m_Name: ARMeshFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARMeshFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Meshing'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-mesh
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfde4033cbc8045a69c465b226fd4284, type: 3}
   m_Name: DisplayUtilitiesFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.DisplayUtilitiesFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Display Utilities'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-display-utilities
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f61610f95074135a9fd060fc37c4788, type: 3}
   m_Name: BoundaryVisibilityFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.BoundaryVisibilityFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc65ec7c51504536bd51a47e3cb8fb6a, type: 3}
   m_Name: ARBoundingBoxFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARBoundingBoxFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Bounding Boxes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-bounding-boxes
@@ -927,7 +927,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &-3340617807374285814
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fd4a84074c74cb183c18e803dabb9e, type: 3}
   m_Name: ARAnchorFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARAnchorFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Anchors'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-anchor
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   - {fileID: 2233565582183808744}
   customLoaderName: 
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000i
@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &-941225693098264425
@@ -1342,7 +1342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -1438,50 +1438,50 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -9127918789677118858}
-  - {fileID: -6933626264736920805}
-  - {fileID: -1703975525354655159}
-  - {fileID: 1860263099584138927}
-  - {fileID: -4350938636528582701}
-  - {fileID: 888942796234234632}
-  - {fileID: 5175964709052518537}
-  - {fileID: 3904387749279873512}
-  - {fileID: 3379774988324553038}
-  - {fileID: 7915168934079604412}
-  - {fileID: -1061028087641090005}
-  - {fileID: -5180461547280674734}
   - {fileID: 497860175956436511}
-  - {fileID: 2209195416694934187}
-  - {fileID: -3643028295622708009}
-  - {fileID: -5975150348391189003}
-  - {fileID: 7950119885923112242}
   - {fileID: 5433801351754987501}
-  - {fileID: 3297029433438588326}
   - {fileID: 6973050831305395240}
   - {fileID: 7430708123936884891}
-  - {fileID: -657175303479354529}
-  - {fileID: -5036624123506501111}
-  - {fileID: -6773412653701434921}
-  - {fileID: 4170173443431177709}
-  - {fileID: 2382990623996721926}
-  - {fileID: -4342935683593874208}
-  - {fileID: 7296494272286099158}
-  - {fileID: 5574426560528990297}
-  - {fileID: 8586112761203654206}
-  - {fileID: -2601315352137776938}
-  - {fileID: 5097741013850070094}
-  - {fileID: 7399251182624610015}
-  - {fileID: -6539180445092952099}
-  - {fileID: 7564171099237253650}
-  - {fileID: 4601918569534871708}
-  - {fileID: 2733392833752591305}
-  - {fileID: -3283794278839342559}
-  - {fileID: -1025434195644436106}
-  - {fileID: -439258343391235925}
-  - {fileID: -2465880231756018942}
-  - {fileID: -5764149608152639132}
-  - {fileID: 1924392822453476593}
+  - {fileID: 3297029433438588326}
   - {fileID: 8960480496597900772}
+  - {fileID: -2601315352137776938}
+  - {fileID: 1860263099584138927}
+  - {fileID: -1025434195644436106}
+  - {fileID: -6539180445092952099}
+  - {fileID: 5574426560528990297}
+  - {fileID: -439258343391235925}
+  - {fileID: 2382990623996721926}
+  - {fileID: 7296494272286099158}
+  - {fileID: 4170173443431177709}
+  - {fileID: -6773412653701434921}
+  - {fileID: -2465880231756018942}
+  - {fileID: 7564171099237253650}
+  - {fileID: -5764149608152639132}
+  - {fileID: -5036624123506501111}
+  - {fileID: 4601918569534871708}
+  - {fileID: 5097741013850070094}
+  - {fileID: 3379774988324553038}
+  - {fileID: -5180461547280674734}
+  - {fileID: -1061028087641090005}
+  - {fileID: 5175964709052518537}
+  - {fileID: 3904387749279873512}
+  - {fileID: -5975150348391189003}
+  - {fileID: -1703975525354655159}
+  - {fileID: 7915168934079604412}
+  - {fileID: 7950119885923112242}
+  - {fileID: 2209195416694934187}
+  - {fileID: -4350938636528582701}
+  - {fileID: 888942796234234632}
+  - {fileID: -3643028295622708009}
+  - {fileID: 2733392833752591305}
+  - {fileID: 8586112761203654206}
+  - {fileID: -6933626264736920805}
+  - {fileID: 7399251182624610015}
+  - {fileID: 1924392822453476593}
+  - {fileID: -9127918789677118858}
+  - {fileID: -3283794278839342559}
+  - {fileID: -4342935683593874208}
+  - {fileID: -657175303479354529}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &-271946614353192123
@@ -1548,7 +1548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076937beb8763d94790d2e9cc1248ac8, type: 3}
   m_Name: ARSessionFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARSessionFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Session'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-session
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651d103057d74c4d8e51d0b368d3d98b, type: 3}
   m_Name: ColocationDiscoveryFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ColocationDiscoveryFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Colocation Discovery'
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.meta-colocation-discovery
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e567abbf4d944210acb6315178bb015, type: 3}
   m_Name: ARCameraFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARCameraFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Camera (Passthrough)'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-camera
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec7ac3a07bc448fbb43bbcff14d5b12, type: 3}
   m_Name: ARRaycastFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARRaycastFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Raycasts'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-raycast
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00bb9c182ae8406ca03773119fa07ea, type: 3}
   m_Name: ARPlaneFeature Android
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.ARPlaneFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Planes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-plane
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -2478,7 +2478,7 @@ MonoBehaviour:
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &8586112761203654206
 MonoBehaviour:
